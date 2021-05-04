@@ -1,11 +1,13 @@
 @import url('./style.css');
 
 .aboutContent{
+   /* border: 1px solid red; */
+   margin: 150px 0;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding: 30px 0;
+   padding: 50px 0;
 }
 
 .top{
@@ -19,20 +21,24 @@
    font-size: 24px;
    margin: 20px 0;
    font-weight: 500;
+   color: rgb(63, 63, 63);
 }
 
 .top p {
    font-size: 15px;
+   color: rgb(48, 48, 48);
 }
 
 .bottom h1 {
    margin: 20px 0;
    font-size: 24px;
    font-weight: 500;
+   color: rgb(63, 63, 63);
 }
 
-.bottom p {
+.bottom ul li {
    font-size: 15px;
+   color: rgb(48, 48, 48);
 }
 
 .img img{
@@ -57,13 +63,17 @@
       justify-content: space-between;
    }
 
+   .text{
+      align-self: flex-start;
+   }
+
    .top h1{
       font-size: 30px;
    }
 
    .top p {
-      max-width: 500px;
-      font-size: 16px;
+      max-width: 450px;
+      font-size: 17px;
    }
 
    .img img {
@@ -78,8 +88,8 @@
       font-size: 30px;
    }
 
-   .bottom ul li {
-      max-width: 600px;
-      font-size: 16px;
+   .bottom ul li{
+      max-width: 700px;
+      font-size: 17px;
    }
 }
