@@ -6,7 +6,6 @@ toggleNav.addEventListener('click', function () {
 });
 if (window.location.pathname === '/pages/about.html') {
 	const img = document.querySelector('.img img');
-	// console.log(img);
 	if (img != null) {
 		let i = 1;
 		setInterval(() => {
@@ -21,7 +20,7 @@ if (window.location.pathname === '/pages/about.html') {
 	}
 }
 
-if (window.location.pathname === '/index.html') {
+if (window.location.pathname === '/index.html' || window.location.pathname === '/') {
 	const overlay = document.querySelector('#overlay');
 	const closeAd = document.querySelector('.buttonOverlayClose');
 	const modal = document.querySelector('.modal');
@@ -36,5 +35,3 @@ if (window.location.pathname === '/index.html') {
 		modal.classList.remove('active');
 	});
 }
-
-// console.log(window.location.pathname);
