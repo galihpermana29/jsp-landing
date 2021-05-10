@@ -344,6 +344,85 @@ html, body {
    font-size: 15px;
    text-align: center;
 }
+.modal {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) scale(0);
+   transition: all 200ms ease-in-out;
+   background-color: #fff;
+   /* min-width: 80%; */
+   /* max-width: 80%; */
+   width: 100%;
+   max-width: 400px;
+   z-index: 110;
+   box-sizing: border-box;
+   padding: 1.5rem;
+   box-shadow: 0 0 20px rgb(0 0 0 / 20%);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.modal a img{
+   /* height: 350px; */
+   /* border: 1px solid red; */
+   width: 100%;
+   max-width: 280px;
+   /* margin: 0 auto; */
+}
+
+.modal .imgOverlay {
+   margin-bottom: 20px;
+}
+
+.modal p {
+   /* max-width: 300px; */
+   width: 100%;
+}
+
+.modal.active {
+   transform: translate(-50%, -50%) scale(1);
+}
+
+#overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgba(0, 0, 0, 0.5);
+   opacity: 0;
+   transition: 200ms ease-in-out;
+   pointer-events: none;
+   z-index: 2;
+}
+
+#overlay.active {
+   opacity: 1;
+   pointer-events: all;
+}
+
+.buttonOverlay{
+   text-decoration: none;
+   color: white;
+   background-color: rgb(248, 85, 85);
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 15px;
+   margin-right: 10px;
+}
+
+.buttonOverlayClose{
+   text-decoration: none;
+   color: white;
+   background-color: rgb(107, 109, 110);
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 15px;
+}
+
 
 @media only screen and (min-width: 670px) {
 	.links {
