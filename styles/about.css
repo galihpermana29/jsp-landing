@@ -15,6 +15,7 @@
 	flex-direction: column-reverse;
 	align-items: center;
 	justify-content: center;
+   /* border: 1px solid red; */
 }
 
 .top h1 {
@@ -26,7 +27,10 @@
 
 .top p {
 	font-size: 15px;
+   letter-spacing: 0.8px;
 	color: rgb(48, 48, 48);
+   max-width: 380px;
+   width: 100%;
 }
 
 .bottom h1 {
@@ -38,6 +42,7 @@
 
 .bottom ul li {
 	font-size: 15px;
+   letter-spacing: 0.8px;
 	color: rgb(48, 48, 48);
 }
 
@@ -75,7 +80,7 @@
 		justify-content: space-between;
 	}
 
-	.text {
+	.texts {
 		align-self: flex-start;
 	}
 

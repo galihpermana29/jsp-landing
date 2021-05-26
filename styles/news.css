@@ -1,0 +1,80 @@
+@import url('./style.css');
+
+.contentTitle {
+	margin: 120px 0 50px 0;
+	color: rgb(48, 48, 48);
+	font-weight: 500;
+	border-bottom: 1px solid rgb(48, 48, 48);
+	width: fit-content;
+	padding: 0 0 5px 0;
+}
+
+.newsNews{
+   margin-bottom: 120px;
+}
+
+.cardNews{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+
+.newsTitle{
+   font-size: 20px;
+   color: rgb(48, 48, 48);
+   margin: 10px 0;
+   width: 100%;
+   max-width: 500px;
+   /* border: 1px solid red; */
+}
+
+.newsDesc{
+   font-size: 15px;
+   max-width: 500px;
+   width: 100%;
+   margin: 10px 0;
+}
+
+.newsImg{
+   max-width: 320px;
+   width: 100%;
+}
+
+.newsButton{
+   text-decoration: none;
+   color: rgb(63, 63, 63);
+   margin-top: 10px;
+   display: inline-block;
+   border: 1px solid rgb(63, 63, 63);
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 14px;
+   transition: .3s ease all;
+}
+
+.newsButton:hover{
+   background-color: rgb(63, 63, 63);
+   color: white;
+}
+
+@media only screen and (min-width: 670px) {
+   .cardNews{
+      flex-direction: row;
+   }
+
+   .newsImg{
+      margin-right: 70px;
+   }
+
+   .newsTitle{
+      font-size: 25px;
+
+   }
+   
+   .newsDesc{
+      font-size: 18px;
+   }
+}
