@@ -50,7 +50,7 @@ if (window.location.pathname === '/pages/content.html') {
 		(trailer = {
 			image: 'trailer.png',
 			title: 'Trailer Penantian Cinta di Telaga Menjer',
-			link: 'https://www.youtube.com/channel/UCxjgZVq2A8FKJFDRbPBD2Nw',
+			link: 'https://www.youtube.com/watch?v=nJCZtt7fefA',
 		}),
 		(pcdtm = {
 			image: 'pcdtm.jpg',
@@ -60,7 +60,7 @@ if (window.location.pathname === '/pages/content.html') {
 		(tutorial = {
 			image: 'tutorial.png',
 			title: 'Tutorial Pembelian Tiket di Okeflix',
-			link: 'https://okeflix.com/series/penantian-cinta-di-telaga-menjer/',
+			link: 'https://www.youtube.com/watch?v=oEAxqVXw-9M',
 		}),
 		(perguliran = {
 			image: 'postprod.jpeg',
