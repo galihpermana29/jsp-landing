@@ -63,14 +63,14 @@ if (window.location.pathname === '/pages/content.html') {
 			link: 'https://www.youtube.com/watch?v=oEAxqVXw-9M',
 		}),
 		(perguliran = {
-			image: 'postprod.jpeg',
+			image: 'perguliran.JPG',
 			title: 'Launching Film Penantian Cinta di Telaga Menjer',
-			link: 'https://youtu.be/8CQrv5fLoyg',
+			link: 'https://youtu.be/xaCT59NOS94',
 		}),
 		(postProd = {
-			image: 'perguliran.JPG',
+			image: 'postprod.jpeg',
 			title: 'Perjalanan ke Wonosobo Post Production Film Penantian Cinta di Telaga Menjer',
-			link: 'https://youtu.be/zhF5fYUqwS0',
+			link: 'https://youtu.be/a0-0YhsU5DE',
 		}),
 	];
 
