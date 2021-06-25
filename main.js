@@ -72,6 +72,16 @@ if (window.location.pathname === '/pages/content.html') {
 			title: 'Perjalanan ke Wonosobo Post Production Film Penantian Cinta di Telaga Menjer',
 			link: 'https://youtu.be/a0-0YhsU5DE',
 		}),
+		(madosi = {
+			image: 'madosi.jpg',
+			title: 'Madosinopo',
+			link: 'https://youtu.be/dLRb6oPstpo',
+		}),
+		(penantian = {
+			image: 'penantian.jpg',
+			title: 'Penantian Cinta',
+			link: 'https://youtu.be/N3F7KfqzP3U',
+		}),
 	];
 
 	contentData.forEach((content) => {
@@ -105,27 +115,26 @@ if (window.location.pathname === '/pages/content.html') {
 	});
 }
 
-
 if (window.location.pathname === '/pages/news.html') {
-   let newsData = [
-      berita1 = {
-         image: "berita1.jpeg",
-         title: "Sandiaga Uno: Film Bisa Jadi Ajang Promosi Wisata",
-         desc : "REPUBLIKA.CO.ID, JAKARTA -- Menteri Pariwisata dan Ekonomi Kreatif (Menparekraf) Sandiaga Uno menilai film sangat efektif menjadi medium promosi destinasi pariwisata nasional. Menurutnya, industri perfilman juga bisa menggerakkan ekonomi masyarakat.",
-         link: "https://www.republika.co.id/berita/qsup7f438/sandiaga-uno-film-bisa-jadi-ajang-promosi-wisata"
-      },
-      berita2 = {
-         image: "berita2.jpg",
-         title: "Ini Harapan Menparekraf Sandi dari Film Penantian Cinta di Telaga Menjer",
-         desc : "JAKARTA - Menteri Pariwisata dan Ekonomi Kreatif (Menparekraf), Sandiaga Salahuddin Uno menilai film memiliki tingkat efektivitas tinggi sebagai medium promosi destinasi pariwisata nasional sekaligus menggerakkan ekonomi masyarakat.",
-         link: "https://lifestyle.sindonews.com/read/423220/156/ini-harapan-menparekraf-sandi-dari-film-penantian-cinta-di-telaga-menjer-1620572717"
-      },
-   ]
+	let newsData = [
+		(berita1 = {
+			image: 'berita1.jpeg',
+			title: 'Sandiaga Uno: Film Bisa Jadi Ajang Promosi Wisata',
+			desc: 'REPUBLIKA.CO.ID, JAKARTA -- Menteri Pariwisata dan Ekonomi Kreatif (Menparekraf) Sandiaga Uno menilai film sangat efektif menjadi medium promosi destinasi pariwisata nasional. Menurutnya, industri perfilman juga bisa menggerakkan ekonomi masyarakat.',
+			link: 'https://www.republika.co.id/berita/qsup7f438/sandiaga-uno-film-bisa-jadi-ajang-promosi-wisata',
+		}),
+		(berita2 = {
+			image: 'berita2.jpg',
+			title: 'Ini Harapan Menparekraf Sandi dari Film Penantian Cinta di Telaga Menjer',
+			desc: 'JAKARTA - Menteri Pariwisata dan Ekonomi Kreatif (Menparekraf), Sandiaga Salahuddin Uno menilai film memiliki tingkat efektivitas tinggi sebagai medium promosi destinasi pariwisata nasional sekaligus menggerakkan ekonomi masyarakat.',
+			link: 'https://lifestyle.sindonews.com/read/423220/156/ini-harapan-menparekraf-sandi-dari-film-penantian-cinta-di-telaga-menjer-1620572717',
+		}),
+	];
 
-   const newsContainer = document.querySelector('.newsNews')
+	const newsContainer = document.querySelector('.newsNews');
 
-   newsData.forEach(news => {
-      newsContainer.innerHTML += `
+	newsData.forEach((news) => {
+		newsContainer.innerHTML += `
       <div class="cardNews" data-aos="fade-up">
          <img src="/assets/${news.image}" alt="${news.image}" class="newsImg">
          <div class="newsDescWrap">
@@ -135,6 +144,6 @@ if (window.location.pathname === '/pages/news.html') {
          </div>
       </div>
       
-      `
-   })
+      `;
+	});
 }
