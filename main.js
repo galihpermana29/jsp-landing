@@ -82,6 +82,11 @@ if (window.location.pathname === '/pages/content.html') {
 			title: 'Penantian Cinta',
 			link: 'https://youtu.be/N3F7KfqzP3U',
 		}),
+		(wisata = {
+			image: 'wisata.jpg',
+			title: 'Wisata Religi Wonosobo',
+			link: 'https://youtu.be/rn0cY3uOvrM',
+		}),
 	];
 
 	contentData.forEach((content) => {
